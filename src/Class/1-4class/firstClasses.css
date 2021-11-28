@@ -1,0 +1,86 @@
+.standart-div {
+  animation-name: starting1;
+  animation-duration: 1s;
+}
+.standart-div {
+  position: relative;
+}
+.standart-div .card {
+  position: relative;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+  text-decoration-line: red;
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.standart-div .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: yellow;
+  clip-path: circle(100px at 80% 20%);
+  clip-path: circle(100px at 20% 80%);
+  transition: 0.5s ease-in-out;
+}
+.a .card:before {
+  background: greenyellow;
+}
+.standart-div .card .go {
+  position: relative;
+  text-decoration: none;
+}
+.standart-div .card .go h1 {
+  opacity: 0%;
+  margin-top: 20%;
+  transition: 0.5s;
+}
+.standart-div .card:hover h1 {
+  opacity: 100%;
+}
+.standart-div .card:hover:before {
+  clip-path: circle(200px at 80% -20%);
+}
+.standart-div .card:hover .what {
+  opacity: 100%;
+}
+.what {
+  font-size: 150%;
+}
+.standart-div .card .h1-cont {
+  position: relative;
+}
+.standart-div .card:hover .h1-cont .oneand4 {
+  font-size: 100%;
+  transition: 0.5s;
+}
+.standart-div .card:hover .h1-cont .klas {
+  transition: 0.5s;
+  font-size: 100%;
+}
+.what {
+  position: relative;
+  opacity: 0%;
+  transition: 0.5s;
+}
+.oneand4 {
+  transition: 0.5s ease-in-out;
+}
+.klas {
+  transition: 0.5s;
+}
+@keyframes starting1 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}

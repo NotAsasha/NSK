@@ -1,0 +1,31 @@
+@media screen and (min-width: 700px) {
+  .subtitles {
+
+  font-family: "Oswald", sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 350%;
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 150%;
+
+  }
+}
+
+.subtitles {
+
+
+
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: rgb(124, 124, 124) 0 0 5px;
+
+}
+span {
+
+}
+.aggsas {
+  color: greenyellow  ;
+}
+.ffrg {
+  color: yellow;
+}

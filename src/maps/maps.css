@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.loadMenu {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+@media screen and (max-width: 700px) {
+    .loadMenu iframe {
+   width: 100%;
+    }
+}
+.loadMenu iframe {
+  border: yellowgreen 5px solid;
+  border-radius: 20px;
+  animation: load1 4s ease; 
+
+}
+.h1map {
+  margin-right: 3%;
+  color: yellowgreen;
+  animation: load1 3s ease;
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.loader {
+    animation: load 5s ease;
+    opacity: 0%;
+}
+@keyframes load {
+    0% {opacity: 100%;}
+
+    100% {opacity: 0%;}
+  }
+
+  @keyframes load1 {
+    0% {opacity: 0%;}
+75% {
+    opacity: 0%;
+}
+    100% {opacity: 100%;}
+  }
+  
+  

@@ -1,0 +1,77 @@
+@media screen and (min-width: 700px) {
+  .subtitle {
+
+    margin-left: 10%;
+
+  font-size: 350%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .subtitle {
+
+  font-family: "Oswald", sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+
+  }
+
+
+  .SubTitlee {
+
+    font-family: "Oswald", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+
+  }
+}
+.subtitle {
+  position: relative;
+  margin-top: 7%;
+
+
+  margin-left: 5%;
+
+
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: rgb(124, 124, 124) 0 0 5px;
+
+}
+.sub-con {
+    width: 100%;
+}
+span {
+  font-size: 150%;
+  margin-left: 2%;
+}
+.SubTitlee {
+  position: relative;
+  margin-top: 15%;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+
+
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: rgb(124, 124, 124) 0 0 5px;
+ 
+
+}
+@media screen and (min-width: 700px) {
+  .SubTitlee {
+  font-size: 200%;
+   margin-right: 10%;
+  font-family: "Oswald", sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+
+
+
+  }
+  
+}
+.SubTitless {
+display: flex;
+justify-content: right;
+text-align: center;
+overflow: hidden;
+
+}

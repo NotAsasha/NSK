@@ -1,0 +1,31 @@
+.feedbacks{
+  position: relative;
+
+
+  margin-top: 10%;
+width: 70%;
+justify-content: center;
+text-align: center;
+margin-left: 10%;
+
+}
+@media screen and (min-width: 700px) {
+  .feedbacks{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-left:  0%;
+  }
+}
+.feedbackCont {
+
+  margin-bottom: 5%;
+}
+.Card {
+
+border-radius: 20px;
+}
+.card {
+
+    margin-bottom: 5%;
+}

@@ -1,0 +1,15 @@
+.subtitles {
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 150%;
+  font-size: 350%;
+  font-family: "Oswald", sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: rgb(124, 124, 124) 0 0 5px;
+
+}
+span {
+color: rgb(251, 255, 0);
+}

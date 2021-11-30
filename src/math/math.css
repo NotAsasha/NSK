@@ -1,0 +1,29 @@
+.primer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.nocss {
+    display: grid;
+        justify-content: center;
+        width: 50%;
+        height: 50%;
+        border: 5px yellow solid;
+        background-color: yellowgreen;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 22%;
+        margin-top: 5%;
+        overflow: hidden;
+        
+}
+.nocss input {
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.Ekran {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
